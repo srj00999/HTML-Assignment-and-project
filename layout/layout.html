@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <title>Basic Layout</title>
+        <style>
+            body{
+                font-family:Arial, Helvetica, sans-serif ;
+                background-color: slategray;
+                margin: 0;
+                padding: 0;
+            }
+           #wrapper{
+            border: 0px solid black;
+            width: 1000px;
+            background-color:white;
+            margin: 0 auto ;
+            
+             
+            }
+           #header{
+            background-color:crimson;
+            color: white;
+            height: 100px;
+
+           }
+           #header h1{
+            padding: 30px 0px 0px 20px;
+           }
+           #menu{
+            background-color: lightsalmon;
+            }
+            #menu li{
+                display: inline-block;
+                
+                
+            }
+            #menu li a{
+                display: block;
+                text-decoration: none;
+                color: black;
+                padding: 10px 13px;
+            }
+            #menu li a:hover{
+                background-color: crimson;
+                color: white;
+
+            }
+            #menu ul{
+                margin: 0;
+                padding: 0;
+
+            }
+            #content{
+                width: 800px;
+                float: left;
+                min-height: 450px; 
+                padding: 15px ;
+                box-sizing: border-box;
+            } 
+
+            #sidebar{
+                 background-color: aqua;
+                 width: 200px;
+                 float: right;
+                 min-height: 450px;
+               
+            }
+            #sidebar a{
+                text-decoration: none;
+                color: black;
+            }
+            #footer{
+                background-color: lightcoral;
+                padding:5px 10px;
+                text-align: right;
+                clear: both;
+               
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>Home Recipe</h1>
+            </div>
+            <div id="menu">
+                <ul><li><a href="https://www.youtube.com/watch?v=2z-MciOwDyE">WatchMyRecipe</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <h2>Complete Food Guide</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A et aperiam quae explicabo soluta tempora rerum quas eaque debitis repellendus saepe, dicta illum accusantium natus nemo, officiis neque vel deserunt!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A et aperiam quae explicabo soluta tempora rerum quas eaque debitis repellendus saepe, dicta illum accusantium natus nemo, officiis neque vel deserunt!</p>
+                </div>
+            <div id="sidebar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <div id="footer">
+                sujatafoodblog@copyright 2018 </div>
+        </div>
+
+    </body>
+ </html>
